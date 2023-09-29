@@ -3,6 +3,7 @@
 Various settings for operating systems and applications.
 
 Settings:
+
 Mac
 
 Linux

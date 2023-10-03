@@ -6,13 +6,6 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "keyboard.dispatch": "keyCode",
   "tabnine.experimentalAutoImports": true,
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": false,
-    "markdown": false,
-    "python": false
-  },
   "workbench.iconTheme": "vscode-icons",
   // Global editor settings
   "editor.bracketPairColorization.enabled": true,
@@ -20,7 +13,7 @@
   "editor.fontLigatures": true,
   // Vim settings
   "vim.vimrc.enable": true,
-  "vim.vimrc.path": "$HOME/.vim/.vimrc",
+  "vim.vimrc.path": "/Users/seb/.vim/.vimrc",
   // Prettier settings
   "prettier.singleQuote": true,
   "files.autoSave": "onFocusChange",
@@ -47,21 +40,24 @@
   },
   // Python Settings
   "python.linting.pylintEnabled": true,
-  "python.linting.enabled": false,
-  "python.formatting.provider": "none",
-  // "python.formatting.blackPath": "/home/sfauque/.local/bin/black",
+  "python.linting.enabled": true,
+  "python.formatting.provider": "autopep8",
   "editor.renderWhitespace": "all",
   "editor.inlineSuggest.enabled": true,
   "python.defaultInterpreterPath": "python3",
   "pythonIndent.keepHangingBracketOnLine": true,
   "[python]": {
-    // "gitlens.codeLens.symbolScopes": ["!Module"],
-    "editor.wordBasedSuggestions": false,
+    // "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "ms-python.autopep8",
     "editor.formatOnSave": true,
-    "editor.tabSize": 4,
-    "editor.formatOnType": true,
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.wordBasedSuggestions": false,
+    "editor.tabSize": 4
+    // "editor.formatOnType": true
   },
+  //Python Docstring
+  "autoDocstring.docstringFormat": "google",
+  "autoDocstring.generateDocstringOnEnter": true,
+  //TurboConsoleLog
   "turboConsoleLog.insertEmptyLineBeforeLogMessage": false,
   "turboConsoleLog.insertEmptyLineAfterLogMessage": false,
   "turboConsoleLog.logMessagePrefix": "🚀🚀",

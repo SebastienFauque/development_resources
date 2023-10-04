@@ -5,7 +5,6 @@
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "diffEditor.ignoreTrimWhitespace": false,
   "keyboard.dispatch": "keyCode",
-  "tabnine.experimentalAutoImports": true,
   "workbench.iconTheme": "vscode-icons",
   // Global editor settings
   "editor.bracketPairColorization.enabled": true,
